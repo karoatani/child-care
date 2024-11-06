@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Contact = () => {
     return (
         <form action="" className=' bg-[#F6F6F6] p-10'>

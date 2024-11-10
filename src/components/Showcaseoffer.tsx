@@ -1,19 +1,21 @@
+import React from "react"
 
 interface Props {
     header : string
-    body : string,
+    body?: string,
     position : string,
     direction : "left" | "right",
     offsetX : string,
     offsetY : string,
     backgroundColor : string,
     shapeImage : string,
-    cardImage : string
+    cardImage : string,
+    children?: React.ReactNode;
 
 }
 
 
-const Showcaseoffer = ({ header, body, position, offsetX, offsetY, direction, backgroundColor, shapeImage, cardImage}: Props) => {
+const Showcaseoffer = ({ header, body, position, offsetX, offsetY, direction, backgroundColor, shapeImage, cardImage, children}: Props) => {
     const [yAxis, xAxis] = position.split("-");
   
     return (
@@ -22,7 +24,7 @@ const Showcaseoffer = ({ header, body, position, offsetX, offsetY, direction, ba
           <>
             <div className="flex flex-col gap-11 w-2/5">
               <h2 className="text-[#8F36FF] text-5xl">{header}</h2>
-              <p className="text-lg">{body}</p>
+              <p className="text-lg">{body ? body : children}</p>
             </div>
             <div className="relative ">
               <img
@@ -62,7 +64,7 @@ const Showcaseoffer = ({ header, body, position, offsetX, offsetY, direction, ba
             </div>
             <div className="flex flex-col gap-11 w-2/5">
               <h2 className="text-[#8F36FF] text-5xl">{header}</h2>
-              <p className="text-lg">{body}</p>
+              <p className="text-lg">{body ? body : children}</p>
             </div>
           </>
         )}

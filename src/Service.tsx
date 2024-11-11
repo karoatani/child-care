@@ -64,12 +64,12 @@ export const Service = () => {
                 </Showcaseoffer>
                 <img src="/Rectangle 40 (1).svg" alt="" className="absolute bottom-0 left-0" />
             </div>
-            <div className="mt-[70px] mb-10 flex flex-col gap-5 items-center justify-center">
+            <div className=" h-[80rem] mb-10 flex flex-col gap-5 items-center justify-center">
                 <h2 className="text-2xl text-bold">Common Questions About ABA Therapy</h2>
                 <CollapsableCard header="What does ABA stand for?" body="ABA is an acronym for Applied Behavior Analysis, also referred to as Behavioral Engineering. The ABA method is made up of scientifically progressive techniques used to improve or correct certain types of behavior. Working with children within the autism spectrum, the therapy has proven success in managing problematic behavior while developing social and academic skills." />
                 <CollapsableCard header="What does BCBA stand for?" body="" />
                 <CollapsableCard header="Can you give me specific examples of behavior 
-that ABA therapy focuses on?" body="" />
+                    that ABA therapy focuses on?" body="" />
                 <CollapsableCard header="Is there an age-appropriate time to begin ABA therapy?" body="" />
                 <CollapsableCard header="How do I know if my child needs ABA therapy?" body=""/>
             </div>

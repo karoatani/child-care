@@ -21,7 +21,7 @@ const FamilyWelcomeMessage = () => {
             </div>
             <div className='flex flex-col gap-20'>
             <div className='flex gap-10'>
-                <Card cardImage='/Screen Shot 2023-05-31 at 8.36 1.svg' cardBodyTextColor='#3D9FFA' cardBody='Connect'/>
+                <Card cardImage='/Screen Shot 2023-05-31 at 8.36 2.svg' cardBodyTextColor='#3D9FFA' cardBody='Connect'/>
                 <Card cardImage='/Screen Shot 2023-05-31 at 8.36 2.svg' cardBodyTextColor='#FF9A02' cardBody='Play'/>
                 <Card cardImage='/Screen Shot 2023-05-31 at 8.36 3.svg' cardBodyTextColor='#00D87D' cardBody='Grow'/>
             </div>

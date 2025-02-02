@@ -5,12 +5,13 @@ const Nav = () => {
   return (
     <div className='flex  items-center justify-between'>
         <div className='ml-20'>
-            <img src="ABA Home Therapy 1.svg" alt="logo" />
+            <a href="/"><img src="ABA Home Therapy 1.svg" alt="logo" /></a>
         </div>
         <div className='flex gap-10'>
             <DropDown menuName='Parents'/>
             <DropDown menuName='Referrals'/>
             <DropDown menuName='About'/>
+            <DropDown menuName='Services'/>
             <DropDown menuName='Careers'/>
         </div>
         <div className='flex gap-10 items-center justify-center mr-20'>
